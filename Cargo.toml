@@ -1,0 +1,12 @@
+[package]
+name = "sideload"
+version = "0.1.0"
+edition = "2024"
+description = "Keep a sideloaded iOS app signed with a free Apple ID"
+publish = false
+
+[dependencies]
+plist = "1.10.3"
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+sha1_smol = "1.0.1"

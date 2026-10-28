@@ -1,0 +1,19 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 77;
+	objects = {
+		000000000000000000000001 = {isa = PBXProject; buildConfigurationList = 000000000000000000000002; mainGroup = 000000000000000000000003; productRefGroup = 000000000000000000000003; preferredProjectObjectVersion = 77; projectDirPath = ""; projectRoot = ""; targets = (000000000000000000000004); attributes = {LastUpgradeCheck = 2640;}; developmentRegion = en; knownRegions = (en, Base);};
+		000000000000000000000003 = {isa = PBXGroup; children = (000000000000000000000009, 000000000000000000000005); sourceTree = "<group>";};
+		000000000000000000000009 = {isa = PBXFileSystemSynchronizedRootGroup; path = Src; sourceTree = "<group>";};
+		000000000000000000000005 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stub.app; sourceTree = BUILT_PRODUCTS_DIR;};
+		000000000000000000000004 = {isa = PBXNativeTarget; buildConfigurationList = 000000000000000000000006; buildPhases = (000000000000000000000007); buildRules = (); dependencies = (); fileSystemSynchronizedGroups = (000000000000000000000009); name = Stub; productName = Stub; productReference = 000000000000000000000005; productType = "com.apple.product-type.application";};
+		000000000000000000000007 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0;};
+		000000000000000000000002 = {isa = XCConfigurationList; buildConfigurations = (000000000000000000000008); defaultConfigurationName = Release;};
+		000000000000000000000008 = {isa = XCBuildConfiguration; buildSettings = {SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 16.0; SWIFT_VERSION = 5.0;}; name = Release;};
+		000000000000000000000006 = {isa = XCConfigurationList; buildConfigurations = (00000000000000000000000A); defaultConfigurationName = Release;};
+		00000000000000000000000A = {isa = XCBuildConfiguration; buildSettings = {PRODUCT_NAME = Stub; GENERATE_INFOPLIST_FILE = YES; CODE_SIGN_STYLE = Automatic; TARGETED_DEVICE_FAMILY = "1,2";}; name = Release;};
+	};
+	rootObject = 000000000000000000000001;
+}
